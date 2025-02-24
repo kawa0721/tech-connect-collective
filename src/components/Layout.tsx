@@ -1,5 +1,5 @@
 
-import { Home, Trending, Bookmark, Hash } from "lucide-react";
+import { Home, TrendingUp, Bookmark, Hash } from "lucide-react";
 import PostFeed from "./PostFeed";
 import TrendingTopics from "./TrendingTopics";
 
@@ -14,7 +14,7 @@ const Layout = () => {
           <span>Feed</span>
         </button>
         <button className="flex items-center space-x-2 px-4 py-2 rounded-lg hover-glass">
-          <Trending className="w-5 h-5" />
+          <TrendingUp className="w-5 h-5" />
           <span>Trending</span>
         </button>
         <button className="flex items-center space-x-2 px-4 py-2 rounded-lg hover-glass">
