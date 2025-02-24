@@ -16,16 +16,16 @@ const TrendingTopics = () => {
   ];
 
   return (
-    <div className="glass-card rounded-lg p-6">
-      <h2 className="text-xl font-bold mb-4">Trending Topics</h2>
-      <div className="space-y-4">
+    <div className="neo-blur rounded-xl p-6">
+      <h2 className="text-xl font-bold mb-4 text-gradient">Trending Topics</h2>
+      <div className="space-y-3">
         {topics.map((topic) => (
           <div
             key={topic.title}
             className="p-4 rounded-lg hover-glass cursor-pointer transition-all"
           >
-            <h3 className="font-medium">{topic.title}</h3>
-            <p className="text-sm text-muted-foreground">{topic.posts} posts</p>
+            <h3 className="font-medium text-foreground/90">{topic.title}</h3>
+            <p className="text-sm text-muted-foreground mt-1">{topic.posts} posts</p>
           </div>
         ))}
       </div>
